@@ -13,6 +13,7 @@ public class Main {
         HttpURLConnection connection=null;
         int responseCode=0;
         String urlString=" https://api.zippopotam.us/us/33162";
+        //to convert string into url
         try {
             url=new URL(urlString);
         } catch (MalformedURLException e) {
