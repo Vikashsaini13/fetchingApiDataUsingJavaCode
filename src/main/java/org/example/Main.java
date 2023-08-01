@@ -42,7 +42,7 @@ public class Main {
             }
             //closing the connection
             in.close();
-
+            //to convert into json
             JSONObject jsonAPIResponse=new JSONObject(apiData.toString());
             System.out.println(jsonAPIResponse);
 //            System.out.println(jsonAPIResponse.get("created_at"));
