@@ -40,7 +40,7 @@ public class Main {
             while((readLine=in.readLine())!=null){
                 apiData.append(readLine);
             }
-
+            //closing the connection
             in.close();
 
             JSONObject jsonAPIResponse=new JSONObject(apiData.toString());
