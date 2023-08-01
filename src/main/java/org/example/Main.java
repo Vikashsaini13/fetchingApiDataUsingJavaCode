@@ -42,6 +42,7 @@ public class Main {
 
             in.close();
 
+            //to convert apidata into json format
             JSONObject jsonAPIResponse=new JSONObject(apiData.toString());
             System.out.println(jsonAPIResponse);
 //            System.out.println(jsonAPIResponse.get("created_at"));
